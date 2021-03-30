@@ -1,0 +1,45 @@
+{
+  "projectName": "iste",
+  "styleFile": "/css/style.css",
+  "assetsFolder": "/assets",
+  "designFramework": "bootstrap4",
+  "frameworks": [
+    {
+      "name": "jquery_slim_33",
+      "type": "cdn"
+    },
+    {
+      "name": "fontawesome_4",
+      "type": "cdn"
+    },
+    {
+      "name": "bootstrap4",
+      "type": "local"
+    },
+    {
+      "name": "appConnect",
+      "type": "local"
+    }
+  ],
+  "hostingType": "firebase",
+  "firebaseProjectID": "isteerdemli",
+  "herokuProjectID": "",
+  "gitURL": "",
+  "webRootFolder": "/public",
+  "targets": [
+    {
+      "targetType": "firebase",
+      "name": "Development",
+      "remoteURL": "http://localhost:5000/"
+    },
+    {
+      "targetType": "firebase",
+      "name": "Production",
+      "usage": "production",
+      "firebaseProjectID": "isteerdemli",
+      "remoteURL": "https://isteerdemli.web.app/"
+    }
+  ],
+  "activeTarget": "Local",
+  "projectType": "web"
+}
